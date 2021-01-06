@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+.header-nav{
+    background-color: azure;
+    height: 50px;
+}
+.navbar a{
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #3c3c3c;
+}
+.navbar a:hover{
+   color: #FF8367;
+}
+.navbar{
+    float: right;
+    margin-right: 10px;
+    padding: 10px;
+}
+h1{
+    font-size: 40px;
+    color: #363958;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    height: 500px;
+}
+.text-color{
+    color: #FF8367;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(to right,lightsalmon,tomato);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+   
+
+}
+
+.latest-work{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.latest-work h2{
+    font-size: 30px;
+    color: #363958;
+} 
+
+.quater-width{
+    width: 26%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.quater-width img{
+    width: 100%;
+}
+.latest-projects{
+   
+    height: 500px;
+    margin-bottom: 100px;
+}
+.latest-projects h3{
+    color: #363958;
+}
+.latest-projects p{
+    color: dimgray;
+}
+
+.skills-section{
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.skills-section h2{
+    text-align: center;
+    color: #363958;
+    font-size: 30px;
+
+}
+.container {
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+  .skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  
+  .html {width: 90%; background-color: #4CAF50;}
+  .css {width: 80%; background-color: #2196F3;}
+
+
+.inquiry{
+  
+   position: relative;
+   max-width: 800px;
+   margin: 0 auto;
+   text-align: center;
+}
+.inquiry img{
+    width: 100%;
+}
+
+.inquiry .text-left{
+    position: absolute;
+    bottom: 35%;
+    left: 20px;
+    color: white;
+}
+.inquiry .button-right{
+    position: absolute;
+    bottom: 44%;
+    right: 20px;
+}
+.footer{
+    margin-top: 100px;
+    text-align: center;
+}
+.footer h3{
+    color: dimgray;
+    font-weight: 300;
+}
+.footer h2{
+    color: #363958;
+    font-weight: 600;
+}
+.myimg{
+    width: 40px;
+}
