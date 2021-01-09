@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo class example</title>
+    <style>
+        body{
+            width: 1000px;
+            margin: 0 auto;
+        }
+        /* li{
+            color: forestgreen;
+            font-size: 30px;
+            list-style: none;
+        } */
+
+        li{
+            list-style: none;
+            font-size: 20px;
+        }
+        /* li:first-child{
+            color: hotpink;
+        }
+        li:last-child{
+            color: tomato;
+        } */
+        /* li:nth-child(2n){
+            color: saddlebrown;
+        }
+        li:nth-child(2n+1){
+            color: seagreen;
+        } */
+
+        li:nth-child(5){
+            font-size: 40px;
+        }
+        p::before{
+            content: "❤️❤️❤️❤️❤️❤️";
+        }
+        p::after{
+            content: "🦆";
+        }
+        h1{
+          margin-top: 45px;
+          margin-left: 60%;
+        }
+    </style>
+</head>
+<body>
+
+    <ul>
+        <li>Alia</li>
+        <li>Malia</li>
+        <li>Dalia </li>
+        <li>Salia</li>
+        <li>Kalia</li>
+        <li>Jalia</li>
+    </ul>
+
+    <p>Sonali Bende</p>
+   <h1>
+       Hello margin
+   </h1>
+    
+</body>
+</html>
